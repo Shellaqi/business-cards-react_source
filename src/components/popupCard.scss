@@ -1,0 +1,11 @@
+.popup {
+    display: none;
+    position: fixed;
+    background-image: url("");
+    z-index: 9999;
+    transform: translate(-100%, -100%);
+    background-color: #fff;
+}
+.popup:target {
+    display: block;
+}
